@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(161, 161, 161);
+}
+
+.header {
+    display: block;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    top: -100px;
+    h1 {
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 3px;
+    }
+}
+.icon {
+    width: 35px;
+    height: 35px;
+}
+.copy-icon {
+    width: 20px;
+    height: 20px;
+}
+#avatar {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.avatar {
+    background-image: linear-gradient(to right, rgb(161, 161, 161) 0% 15%, transparent 20% 80%, rgb(161, 161, 161) 85% 100%);
+    display: block;
+}
+.contents {
+    top: -90px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.about {
+    display: auto;
+    margin: auto;
+    width: 45%;
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.contact {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    display:auto;
+    margin: auto;
+    width: 45%;
+}
+.language-button{
+    position: relative;
+    text-align: right;
+}
