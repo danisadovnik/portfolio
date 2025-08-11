@@ -20,10 +20,7 @@ body{
     width: 35px;
     height: 35px;
 }
-.copy-icon {
-    width: 20px;
-    height: 20px;
-}
+
 #avatar {
     position: relative;
     display: block;
@@ -41,25 +38,25 @@ body{
     position: relative;
     text-align: center;
     display: flex;
+    flex-direction: row;
     margin: auto;
     width: 100%;
 }
-.about {
-    display: auto;
-    margin: auto;
+.contents > div{
+    height: 100%;
     width: 45%;
-    margin: auto;
+    height: auto;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
-}
-.contact {
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    display:auto;
-    margin: auto;
-    width: 45%;
-}
-.language-button{
+    margin: 5px;
+    
+ }
+.lang-div {
     position: relative;
-    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+.dl-img{
+    width: 30px;
+    height: 30px;
 }
